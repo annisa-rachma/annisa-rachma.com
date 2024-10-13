@@ -1,10 +1,9 @@
-import { useState } from "react";
-import InnerBg from "./components/inner_bg/innerBg";
+import PageHome from "./components/PageHome/PageHome";
 
 function App() {
   return (
     <>
-      <InnerBg />
+      <PageHome />
     </>
   );
 }
