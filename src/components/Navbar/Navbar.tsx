@@ -3,7 +3,7 @@ import { FaRegEnvelope, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 export default function Navbar() {
   return (
-    <div className=" text-gray-100 font-lato text-[1rem] flex justify-between  top-0  items-center bg-[#171717] fixed h-16 mx-auto px-36 left-1/2 transform -translate-x-1/2  w-full">
+    <div className=" text-gray-100 font-lato text-[1rem] flex justify-between  top-0  items-center bg-[#171717] fixed h-16 mx-auto px-44 left-1/2 transform -translate-x-1/2  w-screen">
       <nav>
         <ul className="flex gap-4">
           <a href="" className="hover:text-gray-300 text-[1.25rem]">

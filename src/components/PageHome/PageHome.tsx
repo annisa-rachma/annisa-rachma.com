@@ -5,12 +5,12 @@ import Navbar from "../Navbar/Navbar";
 export default function PageHome() {
   return (
     <>
-      <div className="flex flex-col justify-center relative">
+      <div className=" mx-auto  ">
         <div className="">
           <Navbar />
         </div>
 
-        <div className="h-[100vh] w-full flex items-center ">
+        <div className="h-[100vh] flex items-center justify-center ">
           <Title />
         </div>
       </div>
