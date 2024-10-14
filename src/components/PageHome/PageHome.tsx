@@ -5,12 +5,12 @@ import Navbar from "../Navbar/Navbar";
 export default function PageHome() {
   return (
     <>
-      <div className="px-32 ">
-        <div className="fixed top-0 mt-8 left-1/2 transform -translate-x-1/2 w-full max-w-[1200px] min-w-[300px] ">
+      <div className=" mx-auto  ">
+        
           <Navbar />
-        </div>
+       
 
-        <div>
+        <div className="h-[100vh] flex items-center justify-center  px-44 w-full">
           <Title />
         </div>
       </div>
