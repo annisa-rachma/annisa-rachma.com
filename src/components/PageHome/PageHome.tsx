@@ -10,7 +10,7 @@ export default function PageHome() {
           <Navbar />
         </div>
 
-        <div className="h-[100vh] flex items-center ">
+        <div className="h-[100vh] w-full flex items-center ">
           <Title />
         </div>
       </div>
