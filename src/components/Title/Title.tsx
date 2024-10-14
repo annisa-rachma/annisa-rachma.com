@@ -3,7 +3,7 @@ import React from "react";
 function Title() {
   return (
     <>
-      <div className="text-gray-100 ">
+      <div className="text-gray-100 py-32">
         <div className="font-playfair text-[2.65rem] tracking-wide">
           <h1>
             <span className=" italic">Hi,</span> I'm

@@ -1,8 +1,9 @@
 import React from "react";
 
-export default function () {
+export default function Navbar() {
   return (
-    <div className="flex justify-between text-gray-100 font-lato text-[1.25rem] ">
+    // 
+    <div className=" text-gray-100 font-lato text-[1.25rem] flex justify-between  top-0 mt-0  ">
       <nav>
         <ul>
           <a href="" className="text-gray-100 ">a</a>
