@@ -3,18 +3,19 @@ import { FaRegEnvelope, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 export default function Navbar() {
   return (
-    <div className=" text-gray-100 font-lato text-[1rem] flex justify-between  top-0  items-center bg-[#171717] fixed h-16 mx-auto px-44 left-1/2 transform -translate-x-1/2  w-screen">
-      <nav>
-        <ul className="flex gap-4">
+
+    <div className="layout text-gray-100 font-lato text-[1rem] fixed flex justify-between h-16 items-center w-full px-44">
+      <div>
+        <ul className="flex gap-8">
           <a href="" className="hover:text-gray-300 text-[1.25rem]">
           <FaRegEnvelope />
           </a>
           <a href="" className="hover:text-gray-300 text-[1.25rem]"><FaLinkedinIn /></a>
           <a href="" className="hover:text-gray-300 text-[1.25rem]"><FaGithub /></a>
         </ul>
-      </nav>
+      </div>
 
-      <nav>
+      <div>
         <ul className="flex gap-8 ">
           <a href="" className="hover:text-gray-300">
             Projects
@@ -23,7 +24,7 @@ export default function Navbar() {
             About
           </a>
         </ul>
-      </nav>
+      </div>
     </div>
   );
 }

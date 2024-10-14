@@ -6,11 +6,11 @@ export default function PageHome() {
   return (
     <>
       <div className=" mx-auto  ">
-        <div className="">
+        
           <Navbar />
-        </div>
+       
 
-        <div className="h-[100vh] flex items-center justify-center ">
+        <div className="h-[100vh] flex items-center justify-center  px-44 w-full">
           <Title />
         </div>
       </div>
