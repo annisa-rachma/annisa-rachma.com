@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         'playfair': ['"Playfair Display"', 'serif'],
         'lato' : ['lato', 'sans-serif']
+      },
+      backgroundImage: {
+        'noise': "url('/src/assets/noise.svg')",
       }
     },
   },
