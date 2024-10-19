@@ -16,7 +16,7 @@ export default function PageHome() {
           <Title />
         </div>
 
-        <div className="flex items-center justify-center   w-full">
+        <div className="flex  justify-left   w-full ">
           <Project />
         </div>
       </section>
