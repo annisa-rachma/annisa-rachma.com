@@ -6,8 +6,7 @@ import Project from "../Project/Project";
 export default function PageHome() {
   return (
     <>
-      <section className=" 
-      w-full ">
+      <section className=" w-full text-stone-400 font-lato text-[1rem]  fixed   bg-[#171717] bg-noise left-1/2 -translate-x-1/2">
         <Navbar />
 
       </section>
